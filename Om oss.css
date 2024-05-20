@@ -99,24 +99,26 @@ header {
     background-size: cover;
 }
 
-.contact-box {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #0359f8b6;
+.kontaktbox {
+
+    bottom: 10px;
+    right: 10px;
+    background-color: #96b7f5b6;
     padding: 15px 25px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: background-color 3s ease;
+    transition: 3s ease;
+    text-align: center;
 }
 
 .kontaktbox a {
-    color: rgb(240, 2, 2);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: 'Doppio One', sans-serif;
-    font-size: 70px;
+    font-size: 40px;
 }
 
+
 .kontaktbox:hover {
-    background-color: #bbc2d1b6;
+    background-color: #d7cbcb8d;
 }
