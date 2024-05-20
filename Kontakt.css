@@ -55,58 +55,77 @@ header {
 }
 
 
-
-
-.row1 {
+.kontaktsektion {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 2.5%;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.row2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 2.5%;
+.kontakt left, .contact-right {
+    padding: 20px;
 }
 
-.products img{
-    width: 400px;
-    height: 400px;
-    transition: all 0.2s ease-in-out;
+.kontakt left {
+    flex: 1;
 }
 
-
-.products img:hover {
-    background: black;
-    width: 405px;
-    height: 405px;
+.kontakt left h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 
-.row1 div {
-    display: flex;
-    flex-direction: column;
+.kontakt left p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #666;
 }
 
-.row2 div {
+.kontakt left form {
     display: flex;
     flex-direction: column;
 }
 
+.kontakt left label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
 
-.products div div div div {         /* Bestämmer utseende på produktnamnen */
-    --border: 0.1rem solid black;
+.kontakt left input, .contact-left textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.kontakt left button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #fcbf49;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.kontakt left button:hover {
+    background-color: #f77f00;
+}
+
+.kontakt right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    font-family: "Madimi One", sans-serif;
+    background-color: #f9f9f9;
 }
 
-.button {
-    border-radius: 12px;
-    padding: 5% 5%;
-    transition: all 0.2s ease-in-out;
-}
-
-.button:hover {
-    background-color: grey;
+.kontakt right img {
+    max-width: 100%;
+    border-radius: 0 10px 10px 0;
 }
