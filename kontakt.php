@@ -28,6 +28,8 @@
         </div>
     </header>
     <main class="main">
+        <div class="bild2">
+        </div>
         <section class="kontaktsektion">
             <div class="kontakt-left">
                 <h1>Kontakta Oss</h1>
