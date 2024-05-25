@@ -124,3 +124,34 @@ header {
 .kontaktbox:hover {
     background-color: #d7cbcb8d;
 }
+
+@media (max-width: 768px) {
+    .head {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headermenu {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .headermenu div {
+        margin: 5% 0;
+    }
+
+    .text {
+        font-size: 24px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .name {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+}
