@@ -1,21 +1,18 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    max-width: 100%;
 }
 
 body {
-    background-image: url('graycloud.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-color: rgba(119, 119, 118, 0.61);
+    background-color:rgba(119, 119, 118, 0.61);
 }
+
 
 header {
     background-color: #96b7f5b6;
-    padding: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
     filter: drop-shadow(0px 15px 5px);
 }
 
@@ -25,6 +22,7 @@ header {
     margin-left: 2%;
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
+    font-style: normal;
 }
 
 .name {
@@ -40,8 +38,8 @@ header {
 .headermenu {
     display: flex;
     flex-direction: row;
-    margin-left: auto;
-    margin-right: 2%;
+    margin-left: 50%;
+    margin-top: 1%;
 }
 
 .headermenu div {
@@ -49,6 +47,7 @@ header {
     margin-right: 10%;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
+
 
 .main {
     display: flex;
